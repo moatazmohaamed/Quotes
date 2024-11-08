@@ -1,0 +1,27 @@
+header {
+    background-image: linear-gradient(to right, #06152ae8 0%, #305b7f 100%);
+}
+
+header .card {
+    min-height: 50vh;
+    background-color: #657275
+}
+
+header .card h1 {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-weight: 800;
+    color: #17153B;
+}
+
+header .card p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #0f0f0ffc;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+    header .card p {
+        font-size: 1.5rem;
+    }
+}
